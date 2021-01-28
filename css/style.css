@@ -1,0 +1,74 @@
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url("https://media.npr.org/assets/img/2020/08/27/nasa-goods-real_wide-9168d715c2d4c488d7a0e594b397d7abdd969d9d-s1600-c85.png");
+  background-size: cover;
+}
+
+h1, h2, h3, input, button{
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  color: #FFFF;
+}
+
+h2, h3, input{
+  font-family: 'Space Mono', monospace;
+}
+
+h1, button{
+  font-family: font-family: 'Space Mono', monospace;
+}
+
+h2, h3{
+  text-shadow: 2px 1px 2px rgb(122, 145, 141);
+  text-align: center;
+}
+
+input{
+  margin-top: 0.5rem;
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+}
+
+button{
+  margin-bottom: 3rem;
+  width: 15rem;
+  height: 3rem;
+}
+
+h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 0.5rem;
+  max-width: 80%;
+}
+
+h3{
+  width: 70rem;
+  margin-top: 1rem;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  max-height: 30rem;
+}
